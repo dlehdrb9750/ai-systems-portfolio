@@ -34,7 +34,7 @@
 | 아키텍처 | 핵심 내용 | 공개 상태 |
 | --- | --- | --- |
 | **AWPS — Adaptive Work Planning Standard** | 목표 중심의 장기 AI 작업 계획, 실행 단위, 오류 대응 | [공개 아키텍처 준비 중](architecture/index.md) |
-| **DLS — Data Layer Standard** | 정본 선택, 저장 계층, 상태 복구, 검증 가능한 갱신 | **[공개 학습용 프로토타입 + 8개 테스트](architecture/dls/README.md)** |
+| **DLS — Data Layer Standard** | 정본 선택, 저장 계층, 상태 복구, 검증 가능한 갱신 | **[독립 공개 저장소 — AI State Governance](https://github.com/dlehdrb9750/ai-state-governance)** |
 | **AI Learning Workflows** | 학습 문제·응답·평가·복습을 잇는 워크플로 | [공개 데모 검토 중](architecture/index.md) |
 | **Reliable AI Research** | 반복 연구, 인계, 출처·불확실성 관리 | [후속 공개 후보](architecture/index.md) |
 
@@ -51,7 +51,7 @@
 | 문서 | 목적 |
 | --- | --- |
 | [Architecture catalog](architecture/index.md) | 아키텍처별 책임과 공개 계획 |
-| [DLS public example](architecture/dls/README.md) | 상태 게시·검증·수용을 구분하는 Python 학습용 프로토타입 |
+| [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance) | 상태 게시·검증·수용을 구분하는 Python 학습용 프로토타입 |
 | [Case studies](case-studies/index.md) | 실제 문제와 해결 과정 |
 | [Publication policy](publication-policy.md) | 비공개 운영 시스템과 공개 자료의 경계 |
 | [Roadmap](roadmap.md) | 공개·검증의 다음 단계 |
@@ -68,8 +68,8 @@
 
 This portfolio documents practical experience designing and operating **stateful AI workflows** across research and learning tasks. The emphasis is on task orchestration, canonical-state management, reproducible verification, and recovery after interruptions—not on prompt collections or unverified claims of full autonomy.
 
-A **locally tested DLS educational prototype** is available in this portfolio. Architecture-specific repositories will be linked when separately created and verified. Internal research systems and sensitive operational details are not published.
+A **locally tested DLS educational prototype** is published in the independent [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance) repository. Other architecture-specific releases will be linked after independent validation. Internal research systems and sensitive operational details are not published.
 
 ---
 
-**Current scope:** Portfolio documentation and a synthetic educational DLS prototype. This repository does not contain private operational sources, investment strategies, sensitive research findings, or a publicly released software framework.
+**Current scope:** Public portfolio documentation linking to an independent educational DLS prototype. This repository does not contain private operational sources, investment strategies, sensitive research findings, or a publicly released software framework.
