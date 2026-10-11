@@ -25,8 +25,8 @@
 
 ## Stage 3 — Applied demonstrations
 
-- [ ] Build an independently reproducible AI learning example
-- [ ] Validate a complete sample session including response capture and readback
+- [ ] Consider a small non-sensitive AI learning case-study demonstration **within the portfolio**, not a separate architecture repository
+- [ ] If the learning case study is demonstrated, validate response capture and readback end to end before making operational claims
 - [x] Publish [AI Research Automation](https://github.com/dlehdrb9750/ai-research-automation) as an independent synthetic multi-cycle research model
 - [x] Validate simulated producer handoff, batch frontier, recovery and checkpoint with **21 passing public CI tests**
 - [ ] Add a consented public-source end-to-end research integration when independently verified
