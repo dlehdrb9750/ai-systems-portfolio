@@ -1,7 +1,7 @@
 # Case Study: Verified State Migration
 
 **Category:** State governance · Data reliability  
-**Maturity:** Observed in connected internal workflows; public reproducible demo not yet released  
+**Maturity:** Internal artifact readback observed; educational in-memory demo published with 8 passing local tests  
 **Scope:** Sanitized architecture account
 
 ## 1. The problem
@@ -41,13 +41,13 @@
 
 ## 5. Public verification plan
 
-합성 데이터를 사용하는 독립적인 GitHub 예제를 준비합니다.
+합성 데이터 기반 [공개 DLS 학습용 예제](../architecture/dls/README.md)를 게시했습니다. GitHub 원격 API를 실제로 이용한 재현 시험은 후속 검증 과제입니다.
 
 - Old state → candidate successor → version-guarded write → readback
 - Deliberate stale-version conflict
 - Explicit accepted vs. unaccepted flags
 - Recovery checkpoint without modifying the accepted result
 
-**Not yet available:** standalone public runnable example, automated test results, published benchmarks.
+**Available:** runnable educational Python example; 8 local tests passed on 2026-10-11. **Not yet available:** remote GitHub integration test, hosted CI test run or published reliability benchmark.
 
 **Disclosure:** No private repositories, source IDs, production branches, or domain research content are reproduced in this case study.
