@@ -1,7 +1,7 @@
 """Standard-library tests: run with python -m unittest discover -s tests -v."""
 import unittest
 
-from state_demo import (
+from examples.state_demo import (
     ApprovalRequired,
     EducationalLedger,
     StateConflict,
