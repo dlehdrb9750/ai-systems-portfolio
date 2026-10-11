@@ -5,7 +5,7 @@
 | Case study | Main capability | Evidence status |
 | --- | --- | --- |
 | [Verified state migration](state-migration.md) | 상태·정본 관리 및 저장 검증 | 내부 연결 환경에서 실제 쓰기·재조회 관찰; 공개 DLS 예제와 로컬 테스트 검증 |
-| [Continuity in long-running AI work](long-running-workflows.md) | 장기 작업 분해와 오류 대응 | 실행 표준 설계·개정 및 실제 운영 피드백; 독립 비교 실험 미게시 |
+| [Continuity in long-running AI work](long-running-workflows.md) | 장기 작업 분해와 오류 대응 | 운영 피드백 기반 설계; AWPS 공개 시뮬레이션 및 로컬 테스트 14개 통과 |
 | [AI learning workflow](ai-learning-system.md) | 학습 UI·세션·기록 설계 | 학습 백엔드 준비 확인; 전체 학습 사이클 종단 간 검증 미완료 |
 
 ## Evidence labels
