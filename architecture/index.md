@@ -7,7 +7,7 @@
 | System | Fundamental question | Public release status |
 | --- | --- | --- |
 | **AWPS — Adaptive Work Planning Standard** | AI가 복잡한 목표를 어떻게 분해하고, 중단 이후에도 목적을 잃지 않고 이어가는가? | **Planned / no independent public release yet** |
-| **DLS — Data Layer Standard** | 여러 저장소와 세션에서 무엇이 정본이고, 실패한 상태를 어떻게 복구하는가? | **Planned / no independent public release yet** |
+| **[DLS — Data Layer Standard](dls/README.md)** | 여러 저장소와 세션에서 무엇이 정본이고, 실패한 상태를 어떻게 복구하는가? | **Prototype published here; standalone repository pending** |
 | **AI Learning Workflows** | 학습 문제·사용자 응답·평가·복습 이력을 어떻게 일관되게 운영하는가? | **Demonstration under consideration** |
 | **Reliable AI Research** | 반복 연구의 출처, 불확실성, 결과 수용, 인계를 어떻게 관리하는가? | **Future candidate** |
 | **AI Audit & Verification** | AI 작업의 저장 성공과 실질적 판단의 타당성을 어떻게 별도로 검증하는가? | **Future candidate** |
