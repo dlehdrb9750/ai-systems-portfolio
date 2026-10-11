@@ -36,7 +36,6 @@
 | **AWPS — Adaptive Work Planning Standard** | 목표 중심의 장기 AI 작업 계획, 실행 단위, 오류 대응 | **[독립 공개 저장소 — AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration)** |
 | **DLS — Data Layer Standard** | 정본 선택, 저장 계층, 상태 복구, 검증 가능한 갱신 | **[독립 공개 저장소 — AI State Governance](https://github.com/dlehdrb9750/ai-state-governance)** |
 | **AUDS + RIS — Audit & Recursive Improvement** | 근거 기반 감사, 국소 수정(R1), 반복 결함의 구조적 개선 제안(R2) | **[독립 공개 저장소 — AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement)** |
-| **AI Learning Workflows** | 학습 문제·응답·평가·복습을 잇는 워크플로 | [공개 데모 검토 중](architecture/index.md) |
 | **AI Research Automation & Continuity** | 다회차 연구, 증거 출처, 생산자 인계, 저장 검증 및 재개 | **[독립 공개 저장소 — AI Research Automation](https://github.com/dlehdrb9750/ai-research-automation)** |
 
 ## Selected case studies
