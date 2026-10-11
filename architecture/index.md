@@ -10,7 +10,7 @@
 | **[DLS — Data Layer Standard](https://github.com/dlehdrb9750/ai-state-governance)** | 여러 저장소와 세션에서 무엇이 정본이고, 실패한 상태를 어떻게 복구하는가? | **Independent public repository: educational prototype + 8 local tests** |
 | **AI Learning Workflows** | 학습 문제·사용자 응답·평가·복습 이력을 어떻게 일관되게 운영하는가? | **Demonstration under consideration** |
 | **Reliable AI Research** | 반복 연구의 출처, 불확실성, 결과 수용, 인계를 어떻게 관리하는가? | **Future candidate** |
-| **AI Audit & Verification** | AI 작업의 저장 성공과 실질적 판단의 타당성을 어떻게 별도로 검증하는가? | **Future candidate** |
+| **[AUDS + RIS — Audit & Recursive Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement)** | AI 산출물의 결함을 어떻게 감사하고 반복 결함을 구조적으로 개선하는가? | **Independent educational repository; 16/16 public CI tests passed** |
 
 ## Shared operating model
 
@@ -19,7 +19,8 @@
 - **AWPS** organizes *work*: goals, work packages, batches, checkpoints, continuity and completion criteria.
 - **DLS** governs *state*: accepted authority, writer routing, durable storage, version checks and recovery.
 - **Research / learning applications** define *domain-specific work*: what should be researched, taught, assessed or reviewed.
-- **Audit / verification** distinguishes *observed evidence* from claims that have not passed an applicable check.
+- **Audit / verification (AUDS)** separates evidence-scoped findings and local R1 corrections from substantive acceptance.
+- **Recursive improvement (RIS)** analyzes repeated findings and produces governance proposals rather than automatic changes.
 
 [Read the public conceptual operating model](operating-model.md).
 
@@ -32,4 +33,4 @@
 3. 무엇이 실제로 검증됐는지에 대한 기록.
 4. 사용 조건과 한계를 설명하는 문서.
 
-DLS는 [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance), AWPS는 [AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration)에 각각 공개용 설계와 학습 예제를 게시했습니다. 다른 미공개 아키텍처는 **향후 후보**이며 출시된 서비스가 아닙니다. 상세한 공개용 아키텍처는 준비 후 별도 GitHub 저장소에 출판하고 이 페이지에서 연결할 예정입니다.
+AUDS/RIS는 [AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement)에 공개용 자료를 게시했습니다. DLS는 [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance), AWPS는 [AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration)에 각각 공개용 설계와 학습 예제를 게시했습니다. 다른 미공개 아키텍처는 **향후 후보**이며 출시된 서비스가 아닙니다. 상세한 공개용 아키텍처는 준비 후 별도 GitHub 저장소에 출판하고 이 페이지에서 연결할 예정입니다.

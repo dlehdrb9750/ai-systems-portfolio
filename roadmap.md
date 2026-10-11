@@ -20,6 +20,8 @@
 - [x] Publish **AWPS** independent public reference architecture in [AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration)
 - [x] Add a non-sensitive goal → WP → batch Python demonstration and run 14 local tests
 - [x] Link independently published DLS and AWPS architectures from the portfolio
+- [x] Publish the independently written **AUDS/RIS** reference in [AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement)
+- [x] Verify the AUDS/RIS public demonstrator with **16 passing GitHub Actions tests**
 
 ## Stage 3 — Applied demonstrations
 
@@ -39,4 +41,4 @@
 
 새로운 아키텍처를 공개할 준비가 됐다는 이유로 기존 비공개 운영 저장소의 권한·정본·설정을 변경하지 않습니다. 새 공개 저장소는 깨끗한 이력에서 시작하고 합성·일반화된 자료만 포함합니다.
 
-**Important:** Checked items in Stage 1 indicate published **documentation**. They do not imply that any educational example is a production software product. Separate public DLS and AWPS reference repositories now exist.
+**Important:** Checked items in Stage 1 indicate published **documentation**. They do not imply that any educational example is a production software product. Separate public DLS, AWPS and AUDS/RIS reference repositories now exist.
