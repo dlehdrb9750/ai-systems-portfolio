@@ -27,7 +27,9 @@
 
 - [ ] Build an independently reproducible AI learning example
 - [ ] Validate a complete sample session including response capture and readback
-- [ ] Publish an ordinary-domain long-running research demo, if suitable
+- [x] Publish [AI Research Automation](https://github.com/dlehdrb9750/ai-research-automation) as an independent synthetic multi-cycle research model
+- [x] Validate simulated producer handoff, batch frontier, recovery and checkpoint with **21 passing public CI tests**
+- [ ] Add a consented public-source end-to-end research integration when independently verified
 - [ ] Expand case studies with results verified by public evidence
 
 ## Stage 4 — Portfolio refinement
@@ -41,4 +43,4 @@
 
 새로운 아키텍처를 공개할 준비가 됐다는 이유로 기존 비공개 운영 저장소의 권한·정본·설정을 변경하지 않습니다. 새 공개 저장소는 깨끗한 이력에서 시작하고 합성·일반화된 자료만 포함합니다.
 
-**Important:** Checked items in Stage 1 indicate published **documentation**. They do not imply that any educational example is a production software product. Separate public DLS, AWPS and AUDS/RIS reference repositories now exist.
+**Important:** Checked items in Stage 1 indicate published **documentation**. They do not imply that any educational example is a production software product. Four independent public educational repositories now exist: DLS, AWPS, AUDS/RIS, and Research Automation.

@@ -4,7 +4,7 @@
 
 > 실질적인 문제를 해결하기 위해 AI를 단발성 대화 도구에서 **지속 가능한 작업 시스템**으로 발전시키는 설계와 운영 경험을 소개합니다.
 
-**Portfolio status:** Three independent public architecture references · 2026-10-11  
+**Portfolio status:** Four independent public architecture references · 2026-10-11  
 **Focus:** AI workflow orchestration · State and data governance · Audit & recursive improvement · Research automation · AI-assisted learning
 
 ---
@@ -37,13 +37,14 @@
 | **DLS — Data Layer Standard** | 정본 선택, 저장 계층, 상태 복구, 검증 가능한 갱신 | **[독립 공개 저장소 — AI State Governance](https://github.com/dlehdrb9750/ai-state-governance)** |
 | **AUDS + RIS — Audit & Recursive Improvement** | 근거 기반 감사, 국소 수정(R1), 반복 결함의 구조적 개선 제안(R2) | **[독립 공개 저장소 — AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement)** |
 | **AI Learning Workflows** | 학습 문제·응답·평가·복습을 잇는 워크플로 | [공개 데모 검토 중](architecture/index.md) |
-| **Reliable AI Research** | 반복 연구, 인계, 출처·불확실성 관리 | [후속 공개 후보](architecture/index.md) |
+| **AI Research Automation & Continuity** | 다회차 연구, 증거 출처, 생산자 인계, 저장 검증 및 재개 | **[독립 공개 저장소 — AI Research Automation](https://github.com/dlehdrb9750/ai-research-automation)** |
 
 ## Selected case studies
 
 - **[Verified state migration](case-studies/state-migration.md)** — 서로 다른 저장 환경에서 정본을 구분하고 조건부 쓰기·재조회로 실제 반영을 확인한 사례
 - **[Continuity in long-running AI work](case-studies/long-running-workflows.md)** — 목표, 실행 배치, 체크포인트와 오류 복구를 분리한 설계
 - **[Audit findings to improvement proposals](case-studies/audit-and-improvement.md)** — 합성 자료에 기반한 R1/R2 감사·개선 시뮬레이션과 공개 CI 테스트
+- **[Research continuity across execution routes](case-studies/research-automation.md)** — 합성 연구 배치의 생산·인계·검증·재개와 공개 CI 21개 테스트
 - **[AI learning workflow](case-studies/ai-learning-system.md)** — 학습 데이터·응답·평가·사용자 인터페이스를 연결하는 응용 및 검증 경계
 
 각 사례는 **확인된 관찰, 설계 선택, 아직 검증되지 않은 범위**를 구분합니다. 비공개 연구의 내용·전략·개인 데이터는 공개하지 않습니다.
@@ -56,6 +57,7 @@
 | [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance) | 상태 게시·검증·수용을 구분하는 Python 학습용 프로토타입 |
 | [AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration) | 목표 중심 작업 계획·실패 국소화·복구를 다루는 Python 예제 |
 | [AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement) | 감사 결함·R1 국소 수정·R2 개선안을 구분하는 Python 프로토타입 |
+| [AI Research Automation](https://github.com/dlehdrb9750/ai-research-automation) | 여러 회차의 연구 생산자 인계와 승인 경계를 다루는 Python 예제 |
 | [Case studies](case-studies/index.md) | 실제 문제와 해결 과정 |
 | [Publication policy](publication-policy.md) | 비공개 운영 시스템과 공개 자료의 경계 |
 | [Roadmap](roadmap.md) | 공개·검증의 다음 단계 |
@@ -72,8 +74,8 @@
 
 This portfolio documents practical experience designing and operating **stateful AI workflows** across research and learning tasks. The emphasis is on task orchestration, canonical-state management, reproducible verification, and recovery after interruptions—not on prompt collections or unverified claims of full autonomy.
 
-Three independently published public educational references are available: [AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement) (AUDS/RIS), [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance) (DLS) and [AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration) (AWPS). Both distinguish local demonstration from production integration. Internal research systems and sensitive operational details are not published.
+Four independently published public educational references are available: [AI Audit & Improvement](https://github.com/dlehdrb9750/ai-audit-and-improvement) (AUDS/RIS), [AI State Governance](https://github.com/dlehdrb9750/ai-state-governance) (DLS) and [AI Workflow Orchestration](https://github.com/dlehdrb9750/ai-workflow-orchestration) (AWPS), and [AI Research Automation](https://github.com/dlehdrb9750/ai-research-automation) (multi-cycle research continuity). Each separates locally tested examples from real-world operational integration. Internal research systems and sensitive operational details are not published.
 
 ---
 
-**Current scope:** Public portfolio documentation linked to three independently published educational architectures and synthetic prototypes. This repository does not contain private operational sources, investment strategies, sensitive research findings, or a publicly released software framework.
+**Current scope:** Public portfolio documentation linked to four independently published educational architectures and synthetic prototypes. This repository does not contain private operational sources, investment strategies, sensitive research findings, or a publicly released software framework.
