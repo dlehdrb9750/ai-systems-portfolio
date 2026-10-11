@@ -41,7 +41,7 @@
 
 ## 5. Public verification plan
 
-합성 데이터 기반 [공개 DLS 학습용 예제](../architecture/dls/README.md)를 게시했습니다. GitHub 원격 API를 실제로 이용한 재현 시험은 후속 검증 과제입니다.
+합성 데이터 기반 [AI State Governance 공개 저장소](https://github.com/dlehdrb9750/ai-state-governance)를 게시했습니다. GitHub 원격 API를 실제로 이용한 재현 시험은 후속 검증 과제입니다.
 
 - Old state → candidate successor → version-guarded write → readback
 - Deliberate stale-version conflict
