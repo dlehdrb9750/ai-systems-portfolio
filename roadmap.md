@@ -14,12 +14,12 @@
 ## Stage 2 — First independent architecture releases
 
 - [x] Prepare the **DLS** public reference package within the portfolio
-- [ ] Create the separate **DLS** repository and publish the vetted package there
+- [x] Publish the vetted **DLS** package in its [standalone public repository](https://github.com/dlehdrb9750/ai-state-governance)
 - [x] Create a synthetic in-memory example for guarded publication, readback and explicit acceptance
 - [x] Execute 8 local Python tests and document verification boundaries
 - [ ] Prepare **AWPS** independent public reference architecture
 - [ ] Add a reusable, non-sensitive goal → work package → batch demonstration
-- [ ] Link the completed public releases from the portfolio
+- [x] Link the first independent public DLS architecture from the portfolio
 
 ## Stage 3 — Applied demonstrations
 
