@@ -1,7 +1,7 @@
 # Case Study: Continuity in Long-Running AI Work
 
 **Category:** AI workflow orchestration · Interruption recovery  
-**Maturity:** Documented design informed by operational feedback; independently published educational example, with 14 locally passing tests; no production benchmark
+**Maturity:** Documented design informed by operational feedback; independently published educational example, with 14 locally and in public CI passing tests; no production benchmark
 
 ## The problem
 
@@ -35,7 +35,7 @@ A goal-oriented workflow separates:
 3. 검증된 결과는 유지하고 미완료 항목만 다음 배치로 넘깁니다.
 4. 실제 저장·재조회 결과와 완료 기준을 비교합니다.
 
-**Available:** standalone public in-memory workflow simulator; 14 local tests passed on 2026-10-11. **Not yet available:** real LLM/tool orchestration, hosted integration test or statistically validated reliability improvements.
+**Available:** standalone public in-memory workflow simulator; 14 tests passed locally and in [public GitHub Actions CI](https://github.com/dlehdrb9750/ai-workflow-orchestration/actions/runs/38136344974) on 2026-10-11. **Not yet available:** real LLM/tool orchestration, provider integration test or statistically validated reliability improvements.
 
 ## Boundaries
 
